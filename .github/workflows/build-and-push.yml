@@ -2,7 +2,7 @@ name: Build and Push Docker Image
 
 on:
   push:
-    branches: [main]  # triggers only on main branch pushes
+    branches: [master]  # triggers only on main branch pushes
 
 jobs:
   build-test-docker:
